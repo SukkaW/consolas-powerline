@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Nerd Fonts Version: 3.2.1
+# Nerd Fonts Version: 3.1.1
 # Script Version: 1.1.1
 
 # Run this script in your local bash:
@@ -146,11 +146,11 @@ function test-fonts() {
   echo; echo
 
   echo "Nerd Fonts - Powerline Extra"
-  print-unicode-ranges e0a3 e0a3 e0b4 e0c8 e0cc e0d2 e0d4 e0d4 e0d6 e0d7
+  print-unicode-ranges e0a3 e0a3 e0b4 e0c8 e0cc e0d2 e0d4 e0d4
   echo; echo
 
   echo "Nerd Fonts - Symbols original"
-  print-unicode-ranges e5fa e6b2
+  print-unicode-ranges e5fa e62b
   echo; echo
 
   echo "Nerd Fonts - Devicons"

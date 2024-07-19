@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Nerd Fonts Version: 3.2.1
+# Nerd Fonts Version: 3.1.1
 # Script Version: 1.3.1
 
 # Give any parameter to allow some glyphs to be 2 'cells' wide.
@@ -8,11 +8,11 @@
 text1='Testing'
 text2='Nerd Fonts'
 
-leftSymbolsCodes=('E0B0' 'E0B4' 'E0B8' 'E0BC' 'E0C0' 'E0C4' 'E0C6' 'E0C8' 'E0CC' 'E0CD' 'E0CE' 'E0CF' 'E0D0' 'E0D1' 'E0D2' 'E0D6')
-leftSymbols=('' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '')
-rightSymbolsCodes=('E0B2' 'E0B6' 'E0BA' 'E0BE' 'E0C2' 'E0C5' 'E0C7' 'E0CA' 'E0CC' 'E0CD' 'E0CE' 'E0CF' 'E0D0' 'E0D1' 'E0D4' 'E0D7')
-rightSymbols=('' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '')
-isWide=(0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0)
+leftSymbolsCodes=('E0B0' 'E0B4' 'E0B8' 'E0BC' 'E0C0' 'E0C4' 'E0C6' 'E0C8' 'E0CC' 'E0CD' 'E0CE' 'E0CF' 'E0D0' 'E0D1' 'E0D2')
+leftSymbols=('' '' '' '' '' '' '' '' '' '' '' '' '' '' '')
+rightSymbolsCodes=('E0B2' 'E0B6' 'E0BA' 'E0BE' 'E0C2' 'E0C5' 'E0C7' 'E0CA' 'E0CC' 'E0CD' 'E0CE' 'E0CF' 'E0D0' 'E0D1' 'E0D4')
+rightSymbols=('' '' '' '' '' '' '' '' '' '' '' '' '' '' '')
+isWide=(0 0 0 0 1 1 1 1 1 1 1 1 1 1 0)
 
 colorReset='\033[0m'
 #colorBgWhite='\033[107m'
